@@ -1,0 +1,54 @@
+body {
+    background: #0a0c23;
+    background: url('starry-night.jpg') no-repeat center center/cover;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.line1{
+    position:relative;
+    font-family: "Rowdies", serif;
+    font-size: 30px;
+    transition: transform 5.0s ease;
+    top: -20%;
+    right: 15%;
+}
+
+.line2{
+    position:relative;
+    font-family: "Rowdies", serif;
+    font-size: 30px;
+    transition: transform 5.0s ease;
+    top: -5%;
+    right: 30%;
+}
+.line3{
+    position:relative;
+    font-family: "Rowdies", serif;
+    font-size: 30px;
+    transition: transform 5.0s ease;
+    top: 5%;
+    left: 30%;
+}
+.line4{
+    position:relative;
+    font-family: "Rowdies", serif;
+    font-size: 30px;
+    transition: transform 5.0s ease;
+    top: 30%;
+    right: 10%;
+}
+
+.line1 a, .line2 a, .line3 a, .line4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.line1:hover, .line2:hover, .line3:hover, .line4:hover {
+    transform: rotate(360deg);
+}
